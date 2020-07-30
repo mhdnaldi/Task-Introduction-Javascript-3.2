@@ -1,0 +1,18 @@
+1. buat function yang menerima parameter harga, voucher, jarak dan pajak
+
+2. buat function promosi dengan ketentuan:
+  1. ARKFOOD5
+  - jika harga diatas 50rb akan mendapat diskon 50% maksimal potongan 50rb
+  2. DITRAKTIRDEMY
+  - jika harga diatas 25rb akan mendapat diskon 60% maksimal potongan 30rb
+  3. jika tidak menggunakan kode promo maka tidak ada diskon
+
+3. buat function ongkir dengan ketentuan:
+  - jika jarak pengiriman lebih kecil dari 2km maka tarif 5rb 
+  - jika jarak lebih dari 2km maka tiap km tarif bertambah 3rb
+
+4. buat function biaya pajak dengan ketentuan:
+  - jika ada pajak maka pajak 5% dari harga
+  - jika tidak ada pajak maka tidak ada pajak
+
+5. buat function total untuk menghitung total biaya semua
