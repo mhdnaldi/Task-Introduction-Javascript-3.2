@@ -1,5 +1,6 @@
 // No.1 Deteksi palindrome
 function cekPalindrome(str) {
+  str = str.toLowerCase()
   let newStr = ''
   for(let i = str.length-1; i>=0; i--) {
     newStr += str[i]
@@ -11,7 +12,7 @@ function cekPalindrome(str) {
   }
   return newStr
 }
-cekPalindrome('malam')
+cekPalindrome('Malam')
 cekPalindrome('javascript')
 
 
